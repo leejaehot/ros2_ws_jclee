@@ -1,3 +1,19 @@
 build/
 install/
 log/
+yolo_world_webcam/
+requirements_yolo_world.txt
+# *.pyc
+# /home/rcv/ros2_ws/src/ovod_llm/ovod_llm/__pycache__/
+# __pycache__/
+src/OVOD_LLM/ovod_llm/__pycache__/
+src/OVOD_LLM/ovod_llm/captured_frames/*
+src/OVOD_LLM/ovod_captured_frames_gd/
+src/OVOD_LLM/.env
+src/OVOD_LLM/ovod_llm/server/gptapi.py
+src/OVOD_LLM/ovod_llm/server/
+src/OVOD_LLM/ovod_llm/camera_test.py
+src/OVOD_LLM/ovod_llm/detection_node_gd(origin).py
+src/OVOD_LLM/ovod_llm/detection_node_gd.py
+src/OVOD_LLM/ovod_llm/hierarchy_detection_node_GD.py
+src/OVOD_LLM/ovod_llm/hierarchy_detection_node.py
