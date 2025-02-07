@@ -27,8 +27,8 @@ setup(
             'detection_node_YW_query = ovod_llm.detection_node_YW_query:main',
             'detection_node_YW_query_clip = ovod_llm.detection_node_YW_query_clip:main',
             
-            'hierarchy_detection_node = ovod_llm.hierarchy_detection_node:main',
-            'detection_node_gd = ovod_llm.detection_node_gd:main',
+            # 'hierarchy_detection_node = ovod_llm.hierarchy_detection_node:main',
+            # 'detection_node_gd = ovod_llm.detection_node_gd:main',
             'user_input_query_node = ovod_llm.user_input_query_node:main',
             'llm_node = ovod_llm.llm_node:main',
         ],
