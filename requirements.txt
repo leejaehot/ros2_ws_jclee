@@ -237,7 +237,7 @@ rosidl-runtime-py==0.9.1
 rospkg==1.6.0
 rospkg-modules==1.6.0
 rpyutils==0.2.0
-rqt==1.1.2
+#rqt==1.1.2
 rqt-action==1.0.2
 rqt-console==1.1.2
 rqt-graph==1.1.3
