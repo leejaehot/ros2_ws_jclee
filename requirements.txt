@@ -117,7 +117,7 @@ incremental==16.10.1
 jetson-stats==4.2.12
 Jetson.GPIO==2.1.1
 Jinja2==3.1.4
-joint-state-publisher==2.2.0
+#joint-state-publisher==2.2.0
 keyring==18.0.1
 kiwisolver==1.0.1
 language-selector==0.1
