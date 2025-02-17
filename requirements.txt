@@ -310,7 +310,5 @@ wrapt==1.11.2
 wsaccel==0.6.2
 xkit==0.0.0
 yapf==0.43.0
-# Editable install with no version control (yoloworld-detection==0.0.0)
--e /home/rcv/ros2_ws/build/yoloworld_detection
 zipp==3.20.2
 zope.interface==4.7.1
