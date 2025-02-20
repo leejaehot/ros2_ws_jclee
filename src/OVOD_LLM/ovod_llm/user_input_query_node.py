@@ -23,6 +23,7 @@ class UserTextInputNode(Node):  # ROS 2 노드를 상속하여 사용자 입력 
         # 텍스트 입력 필드 생성
         self.entry = tk.Entry(self.window, width=30)  # 입력 필드 너비를 30자로 설정
         self.entry.pack(padx=5, pady=5)  # 패딩 추가
+        self.entry.bind('<Return>', self.send_text)  # 엔터 키 이벤트 바인딩 추가
 
         # 버튼 추가 (클릭 시 send_text 함수 실행)
         self.button = tk.Button(self.window, text="Query Send", command=self.send_text)
