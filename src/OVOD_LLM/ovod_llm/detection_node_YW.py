@@ -37,8 +37,7 @@ class DetectionNode(Node):  # ROS 2 노드를 상속하여 객체 감지 노드 
         self.get_logger().info(f"Using device: {self.device}")  # 사용 중인 장치 출력
 
         # YOLOWorld 모델 불러오기
-        # self.model = YOLOWorld("yolov8s-world.pt")  # YOLOWorld 모델 가중치 (주석 처리됨)
-        self.model = YOLOWorld("yolov8l-worldv2.pt")  # YOLOWorld 모델 가중치 (사용 중)
+        self.model = YOLOWorld("yolov8x-worldv2.pt")  # YOLOWorld 모델 가중치 (사용 중)
         self.model.to(self.device)  # 모델을 선택한 장치(GPU 또는 CPU)로 이동
 
         self.get_logger().info("YOLOWorld model loaded successfully")  # 모델이 성공적으로 로드되었음을 출력
@@ -46,7 +45,7 @@ class DetectionNode(Node):  # ROS 2 노드를 상속하여 객체 감지 노드 
         ###=============================================================
 
         # 프레임 저장 디렉토리 설정
-        self.save_directory = "/home/rcv/ros2_ws_jclee/src/OVOD_LLM/ovod_llm/captured_frames"
+        self.save_directory = "your_work_space/src/OVOD_LLM/ovod_llm/captured_frames"
         os.makedirs(self.save_directory, exist_ok=True)  # 저장 디렉토리가 없으면 생성
         self.frame_count = 0  # 프레임 저장을 위한 카운터 초기화
         
